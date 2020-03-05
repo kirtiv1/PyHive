@@ -12,9 +12,8 @@ import datetime
 import re
 from decimal import Decimal
 
-from TCLIService import TCLIService
-from TCLIService import constants
-from TCLIService import ttypes
+from pyhive.TCLIService import TCLIService, ttypes
+from pyhive.TCLIService import constants
 from pyhive import common
 from pyhive.common import DBAPITypeObject
 # Make all exceptions visible in this module per DB-API
